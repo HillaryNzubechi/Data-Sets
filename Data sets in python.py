@@ -17,6 +17,7 @@ None Type:	NoneType
 You can get the data type of any object by using the type() function
 Examples are expressed below
 """
+print("Below are classes of data types")
 x=5
 print(type(x)) #int
 x="Hello world"
