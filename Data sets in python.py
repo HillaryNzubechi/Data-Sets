@@ -17,13 +17,15 @@ None Type:	NoneType
 You can get the data type of any object by using the type() function
 Examples are expressed below
 """
-print("Below are classes of data types")
-x=5
-print(type(x)) #int
-x="Hello world"
-print(type(x)) #str
-x=20.5
-print(type(x)) #float
+print("Below are classes of data types and the last four are known as primitive data types")
+x=b"Hello"
+print(type(x)) #bytes
+x=bytearray(5)
+print(type(x)) #bytearray
+x=memoryview(bytes(5))
+print(type(x)) #memoryview
+x=None
+print(type(x)) #Nonetype
 x=1j
 print(type(x)) #complex
 x = ["apple", "banana", "cherry"]
@@ -38,16 +40,15 @@ x = {"apple", "banana", "cherry"}
 print(type(x)) #set
 x = frozenset({"apple", "banana", "cherry"})
 print(type(x)) #frozenset
+x=5
+print(type(x)) #int
+x=20.5
+print(type(x)) #float
+x="Hello world"
+print(type(x)) #str
 x=True
 print(type(x)) #bool
-x=b"Hello"
-print(type(x)) #bytes
-x=bytearray(5)
-print(type(x)) #bytearray
-x=memoryview(bytes(5))
-print(type(x)) #memoryview
-x=None
-print(type(x)) #Nonetype
+
 """
 Python has four primitive variable:
 Intergers:You can use an integer to represent numeric data and, more specifically, whole numbers from negative infinity to infinity
