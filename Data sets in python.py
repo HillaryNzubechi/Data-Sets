@@ -35,7 +35,7 @@ print(type(x)) #tuple
 x=range(6)
 print(type(x)) #range
 x = {"name" : "John", "age" : 36}
-print(type(x)) #dict
+print(type(x)) #dictionary
 x = {"apple", "banana", "cherry"}
 print(type(x)) #set
 x = frozenset({"apple", "banana", "cherry"})
